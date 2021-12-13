@@ -148,7 +148,7 @@ pub fn catch_if_ncli() !void {
         return;
     }
 
-    try stdout.print("Press ENTER to close.", .{});
+   // try stdout.print("Press ENTER to close.", .{});
 
     // Keep console open
     _ = try std.io.getStdIn().reader().readByte();
